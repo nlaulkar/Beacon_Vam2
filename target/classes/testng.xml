@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Beacon_VAM_Automation_Test_suite">
+  <test name="Regression Test">
+  
+  <!--groups>
+  <run>
+  <include name="SmokeTest"></include>
+  </run>
+  </groups-->
+   
+    <classes>
+      <class name="com.vam.TestCases.LoginPageTestCase"/>
+      <class name="com.vam.TestCases.HomePageTestCases"/>
+      <class name="com.vam.TestCases.AgentPageTestCases"/>
+      <class name="com.vam.TestCases.MemberPageTestCases"/>
+      <class name="com.vam.TestCases.AuthorizationPageTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
